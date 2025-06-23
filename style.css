@@ -75,6 +75,36 @@ img {
   width: 70%;
   margin-bottom: 20px;
 }
+
+/* //////////////////////////\\VIDEO SECTION */
+.video{
+  padding: 10px 0 40px;
+}
+.video-content{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+.video-preview{
+  margin-bottom: 20px;
+}
+
+/* ///////////////////////////\\TESTIMONIAALS */
+.testimonials{
+  padding: 40px 0;
+}
+.testimonials .testimonials-heading{
+  width: 700px;
+  margin-bottom: 40px;
+}
+.testimonials-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+}
+
 /*////////////////////////// UTILITY CLASSES  */
 .container {
   max-width: 1100px;
@@ -150,4 +180,35 @@ btn-block{
 }
 .text-center{
   text-align: center;
+}
+
+/* /////////////////////\\BACKGROUND */
+.bg-primary{
+  background: var(--primary);
+  color: #fff;
+} 
+.bg-light{
+  background: var(--light);
+  color: #333;
+} 
+.bg-dark{
+  background: var(--dark);
+  color: #fff;
+} 
+.bg-black{
+  background: black;
+  color: #fff;
+} 
+
+
+
+/* ////////////////\\CARD */
+.card{
+  font-size: 1.4rem;
+  background: #fff;
+  color: #000;
+  border-radius: 10px;
+  padding: 20px;
+  font-weight: bold;
+ 
 }
